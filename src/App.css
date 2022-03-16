@@ -1,0 +1,23 @@
+.autocomplete-popup {
+  background-color: lightsteelblue;
+  border-radius: 4px;
+  box-shadow: 10px 5px 20px gray;
+  max-width: 300px;
+}
+
+.autocomplete-item {
+  padding: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background-color: antiquewhite;
+}
+
+.highlight {
+  font-size: bold;
+  background-color: bisque;
+}
